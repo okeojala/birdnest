@@ -1,11 +1,14 @@
 Birdnest by okeojala
 
 Usage:
-1. Create a directory
-2. Create a new react app in the directory via command: npx create-react-app birdnest
-(2.1. Install axios via command: npm install axios)
-3. Replace src/App.js with Birdnest.js
-4. Create a subdirectory called backend
-5. Copy index.js and package.json to backend subdirectory
-6. Run command: npm update in backend subdirectory
-7. Run commmand: npm install in backend subdirectory
+0. Fetch/download the code
+1. Create a new react app in the main directory via command: "npx create-react-app birdnest"
+(1.1. Install axios via command: "npm install axios" and remember to resolve dependency issues whenever needed)
+2. Replace birdnest/src/App.js with Birdnest.js
+3. Modify birdnest/package.json: add line "proxy": "http://localhost:3001", OR whatever address/port the backend server will be using.
+4. Run command: "npm update" in backend subdirectory
+5. Run commmand: "npm install" in backend subdirectory
+(5.1 Resolve additional dependency issues)
+6. Start server in birdnest/backend directory via command "npm start"
+7. Start react app in main directory birdnest via command "npm start" or build the app via "npm run build" -> deploy the app.
+8. Enjoy!
