@@ -1,6 +1,6 @@
-Birdnest by okeojala
+<h1>Birdnest by okeojala</h1>
 
-Usage:
+<h2>Usage:</h2>
 0. Fetch/download the code
 1. Create a new react app in the main directory via command: "npx create-react-app birdnest"
 (1.1. Install axios via command: "npm install axios" and remember to resolve dependency issues whenever needed)
